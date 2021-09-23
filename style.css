@@ -1,0 +1,29 @@
+.task-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-task {
+    font-size: 18px;
+    color: black;
+    margin-left: 8px;
+    margin-right: 10px;
+}
+
+.done-text {
+    color: rgba(0,0,0,0.3);
+    text-decoration: line-through;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.input-edit {
+    margin: 10px;
+    width: 10vw;
+    font-size: 18px;
+}
