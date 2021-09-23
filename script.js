@@ -11,6 +11,7 @@ window.onload = function init () {
 }
 
 onClickButton = () => {
+    if(!valueInput) return;
     allTasks.push({
         text: valueInput,
         isCheck: false
@@ -22,7 +23,6 @@ onClickButton = () => {
 }
 
 updateValue = (event) => {
-
     valueInput = event.target.value;
 }
 
